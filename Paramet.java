@@ -30,18 +30,30 @@ public class Paramet {
      * 身份证号
      */
     private String idNumber;
+    /**
+     * 详细时间点
+     */
+    private String timeSlotDamoylxs;
+
+    public String getTimeSlotDamoylxs() {
+        return timeSlotDamoylxs;
+    }
+
+    public void setTimeSlotDamoylxs(String timeSlotDamoylxs) {
+        this.timeSlotDamoylxs = timeSlotDamoylxs;
+    }
 
     /**
      * 游客信息集合
      */
-    private List<ClientInfoFirst> clientInfoMoreList;
+    private List<TouristInfo> touristInfoList;
 
-    public List<ClientInfoFirst> getClientInfoMoreList() {
-        return clientInfoMoreList;
+    public List<TouristInfo> getTouristInfoList() {
+        return touristInfoList;
     }
 
-    public void setClientInfoMoreList(List<ClientInfoFirst> clientInfoMoreList) {
-        this.clientInfoMoreList = clientInfoMoreList;
+    public void setTouristInfoList(List<TouristInfo> touristInfoList) {
+        this.touristInfoList = touristInfoList;
     }
 
     public String getName() {
